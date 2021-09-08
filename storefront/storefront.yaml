@@ -81,12 +81,12 @@ spec:
         paths:
           - path: /
             backend:
-              serviceName: z-mart
+              serviceName: storefront
               servicePort: 80
     - host: www.z-mart.dev
       http:
         paths:
           - path: /
             backend:
-              serviceName: z-mart
+              serviceName: storefront
               servicePort: 80

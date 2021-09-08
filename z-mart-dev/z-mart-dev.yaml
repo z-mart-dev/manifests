@@ -68,7 +68,7 @@ metadata:
   namespace: z-mart
   annotations:
     kubernetes.io/ingress.class: "nginx"
-    cert-manager.io/cluster-issuer: "letsencrypt"
+    cert-manager.io/cluster-issuer: "letsencrypt-staging"
 spec:
   tls:
     - hosts:

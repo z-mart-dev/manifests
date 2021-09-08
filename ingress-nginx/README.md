@@ -21,3 +21,7 @@ Session Affinity:         None
 External Traffic Policy:  Local
 HealthCheck NodePort:     31387 # <= LB Health check should target that
 ```
+
+More weirdness: pod communication through the loadbalancer:
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-with-cert-manager-on-digitalocean-kubernetes#step-2-%E2%80%94-setting-up-the-kubernetes-nginx-ingress-controller

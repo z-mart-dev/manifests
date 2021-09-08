@@ -43,7 +43,7 @@ spec:
     spec:
       containers:
         - name: z-mart
-          image: ghcr.io/z-mart/z-mart:latest
+          image: ghcr.io/z-mart-dev/z-mart:latest
           imagePullPolicy: Always
           stdin: true
           tty: true

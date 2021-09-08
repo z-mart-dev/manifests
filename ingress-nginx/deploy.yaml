@@ -264,6 +264,7 @@ metadata:
   annotations:
     service.beta.kubernetes.io/do-loadbalancer-enable-proxy-protocol: 'true'
     service.beta.kubernetes.io/do-loadbalancer-hostname: "lb.z-mart.dev"
+    service.beta.kubernetes.io/do-loadbalancer-healthcheck-port: "80"
   labels:
     helm.sh/chart: ingress-nginx-4.0.1
     app.kubernetes.io/name: ingress-nginx
